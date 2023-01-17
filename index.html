@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Game</title>
+</head>
+<body>
+    
+    <div class="canvas" id="canvas" oncontextmenu="return false">
+        <div>
+            <img class="bg_image" src="./img/assets/2 Background/Day/Background.png" alt="">
+        </div>
+
+        <img class="fullscreen" id="fsButton" src="./img/fullscreen.png"/>
+        <div id="img_block" class="wrapper_hero">
+            <img class="hero_run" id="hero_img" src="./img/hero-sprite.png" alt="">
+        </div>
+
+        <div class="jump_block" id="jump_block">
+            <img class="hero_jump" src="./img/hero-sprite.png" alt="">
+            <div class="div_jump"></div>
+        </div>
+
+        <div class="hit_block" id="hit_block">
+            <img class="hit_jump hero_jump" src="./img/hero-sprite.png" alt="">
+            <div class="hit_jump div_jump"></div>
+        </div>
+    
+
+    <script src="./scrip.js"></script>
+</body>
+</html>
